@@ -50,9 +50,9 @@ sed -i -e "s#appdirs.user_cache_dir(__package__ or \"colabfold\")#\"${COLABFOLDD
 rm -rf __pycache__
 
 # start downloading weights
-cd ${COLABFOLDDIR}
-colabfold-conda/bin/python3.8 -m colabfold.download
-cd ${CURRENTPATH}
+# cd ${COLABFOLDDIR}
+# colabfold-conda/bin/python3.8 -m colabfold.download
+# cd ${CURRENTPATH}
 
 echo "Download of alphafold2 weights finished."
 echo "-----------------------------------------"
